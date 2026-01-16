@@ -11,6 +11,12 @@
     <header>
         <h1>Muhammad Hasnain Javed</h1>
         <p>Graphic Designer | Photo & Video Editor | Virtual Assistant</p>
+
+        <!-- Action Buttons -->
+        <div class="header-buttons">
+            <a href="files/Hasnain-CV.pdf" class="btn" target="_blank">Download CV</a>
+            <a href="#contact-form" class="btn">Contact Me</a>
+        </div>
     </header>
 
     <!-- About -->
@@ -33,25 +39,32 @@
         </div>
     </section>
 
-    <!-- Experience -->
+    <!-- Work Experience Table -->
     <section>
-        <h2>Work Experience</h2>
+        <h2>Work Experience (Table)</h2>
 
-        <div class="box">
-            <h3>Photo / Video Editor</h3>
-            <p>Tiham-ul-Haq Production</p>
-            <p>March 2023 – December 2024</p>
-        </div>
-
-        <div class="box">
-            <h3>Graphic Designer (Freelancing)</h3>
-            <p>March 2023 – Present</p>
-        </div>
-
-        <div class="box">
-            <h3>Internship</h3>
-            <p>Ace Connect Multan (2022)</p>
-        </div>
+        <table>
+            <tr>
+                <th>Role</th>
+                <th>Organization</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>Photo / Video Editor</td>
+                <td>Tiham-ul-Haq Production</td>
+                <td>Mar 2023 – Dec 2024</td>
+            </tr>
+            <tr>
+                <td>Graphic Designer</td>
+                <td>Freelancing</td>
+                <td>Mar 2023 – Present</td>
+            </tr>
+            <tr>
+                <td>Intern</td>
+                <td>Ace Connect Multan</td>
+                <td>2022</td>
+            </tr>
+        </table>
     </section>
 
     <!-- Skills -->
@@ -81,6 +94,17 @@
         </ul>
     </section>
 
+    <!-- Google Drive Links -->
+    <section>
+        <h2>Portfolio (Google Drive)</h2>
+
+        <div class="drive-links">
+            <a href="https://drive.google.com/drive/folders/1o7IlRY7ETgptZsr1b5ENU0QFcl8S-74m?usp=drive_link" target="_blank" class="btn">Graphic Design Work</a>
+            <a href="https://drive.google.com/drive/folders/1o7IlRY7ETgptZsr1b5ENU0QFcl8S-74m?usp=drive_link" target="_blank" class="btn">Video Editing Projects</a>
+            <a href="https://drive.google.com/drive/folders/1o7IlRY7ETgptZsr1b5ENU0QFcl8S-74m?usp=drive_link" target="_blank" class="btn">Photo Editing Samples</a>
+        </div>
+    </section>
+
     <!-- Certificates -->
     <section>
         <h2>Certificates</h2>
@@ -92,13 +116,16 @@
         </div>
     </section>
 
-    <!-- Contact -->
-    <section>
-        <h2>Contact</h2>
-        <p>Email: javedhasnain05@gmail.com</p>
-        <p>Phone: +92 318 6752390</p>
-        <p>Location: Multan, Pakistan</p>
-        <p>LinkedIn: linkedin.com/in/hasnain-javed-a65470365</p>
+    <!-- Contact Form -->
+    <section id="contact-form">
+        <h2>Contact Me</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
     </section>
 
     <!-- Footer -->
